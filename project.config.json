@@ -1,4 +1,6 @@
 {
+  "description": "项目配置文件。",
+  "miniprogramRoot": "mp/",
   "appid": "wx41bc741336cb3a22",
   "compileType": "miniprogram",
   "libVersion": "3.0.2",
@@ -24,5 +26,9 @@
   "editorSetting": {
     "tabIndent": "insertSpaces",
     "tabSize": 2
-  }
+  },
+  "pages": [
+    "pages/app"
+  ],
+  "srcMiniprogramRoot": "mp/"
 }
