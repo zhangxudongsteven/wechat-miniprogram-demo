@@ -1,0 +1,9 @@
+<!-- Template Defination -->
+
+<template name="odd">
+  <view> {{item}} is odd </view>
+</template>
+
+<template name="even">
+  <view> {{item}} is even </view>
+</template>

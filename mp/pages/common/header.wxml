@@ -1,4 +1,4 @@
-<template name="head">
+<template name="header">
   <view class="page-head">
     <view class="page-head-title">{{title}}</view>
     <view class="page-head-line"></view>

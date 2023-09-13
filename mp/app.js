@@ -6,6 +6,7 @@ App({
   globalData: {
     theme: 'light', // dark
     mode: '', // 模式(care：关怀模式)
+    temp: 'global-temp'
   },
   changeGlobalData(data) {
     this.globalData = Object.assign({}, this.globalData, data);
@@ -32,4 +33,7 @@ App({
   onLaunch() {
     // TODO: 检测适老化
   },
+  onShow(options) {
+      console.log("onShow: " + options)
+  }
 });
